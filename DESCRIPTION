@@ -1,0 +1,10 @@
+Package: simulacion
+Title: Funciones Suplementarias para el Cursado de Taller de Simulacion
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gino", "Bartolelli", , "gino.bartolelli@fcecon.unr.edu.ar", role = c("aut", "cre"))
+Description: Este paquete provee funciones para generar numeros aleatorios.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
