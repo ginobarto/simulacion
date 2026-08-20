@@ -2,23 +2,22 @@
 % Please edit documentation in R/calcular_integral.R
 \name{calcular_integral}
 \alias{calcular_integral}
-\title{Calcular integral definida en el [0,1]}
+\title{Calcular integral definida en el [0,1] por Monte Carlo}
 \usage{
 calcular_integral(g, n = 1000)
 }
 \arguments{
-\item{g}{funcion definida en el [0,1]}
+\item{g}{Funcion definida en el [0,1].}
 
-\item{n}{numero de uniformes generadas}
+\item{n}{Numero de simulaciones.}
 }
 \value{
-una lista con el valor estimado de la integral y su error asociado.
+Una lista con el valor \code{estimado} de la integral y su \code{error} asociado.
 }
 \description{
-Esta funcion utiliza un metodo de simulacion
-por Monte Carlo para calcular la integral definida
+Esta funcion calcula la integral definida
 en el rango [0,1] de una funcion \code{g}
-generando \code{n} variables aleatorias uniformes.
+simulando \code{n} variables aleatorias U(0,1).
 }
 \examples{
 calcular_integral(g = \(x) exp(x))

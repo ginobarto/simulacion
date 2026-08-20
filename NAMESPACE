@@ -2,5 +2,7 @@
 
 export(calcular_integral)
 export(generar_numeros_aleatorios)
-importFrom(stats,runif)
-importFrom(stats,var)
+importFrom(stats,
+  runif,
+  var
+)

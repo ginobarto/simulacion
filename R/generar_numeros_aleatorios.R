@@ -2,13 +2,13 @@
 #' 
 #' Esta funcion genera una secuencia rectangular de numeros aleatorios
 #' a partir de un generador congruencial lineal:
-#' \deqn{x_n = (a \cdot x_{n-1} + c) \text{ mod } m}
+#' \deqn{x_n = (a \cdot x_{n-1} + c) \text{ mod } m}.
 #'
-#' @param n largo de la secuencia 
-#' @param x0 valor inicial o semilla
-#' @param a multiplicador
-#' @param c constante aditiva
-#' @param m modulo
+#' @param n Largo de la secuencia.
+#' @param x0 Valor inicial o semilla.
+#' @param a Multiplicador.
+#' @param c Constante aditiva.
+#' @param m Modulo.
 #'
 #' @returns Secuencia de numeros aleatorios en el intervalo \[0,1\] de largo `n`.
 #'

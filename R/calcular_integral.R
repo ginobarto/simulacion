@@ -1,14 +1,13 @@
-#' Calcular integral definida en el \[0,1\]
+#' Calcular integral definida en el \[0,1\] por Monte Carlo
 #' 
-#' Esta funcion utiliza un metodo de simulacion
-#' por Monte Carlo para calcular la integral definida
+#' Esta funcion calcula la integral definida
 #' en el rango \[0,1\] de una funcion `g`
-#' generando `n` variables aleatorias uniformes.
+#' simulando `n` variables aleatorias U(0,1).
 #'
-#' @param g funcion definida en el \[0,1\]
-#' @param n numero de uniformes generadas
+#' @param g Funcion definida en el \[0,1\].
+#' @param n Numero de simulaciones.
 #'
-#' @returns una lista con el valor estimado de la integral y su error asociado.
+#' @returns Una lista con el valor `estimado` de la integral y su `error` asociado.
 #'
 #' @examples
 #' calcular_integral(g = \(x) exp(x))

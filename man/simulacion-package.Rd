@@ -4,12 +4,17 @@
 \name{simulacion-package}
 \alias{simulacion}
 \alias{simulacion-package}
-\title{simulacion: Funciones Suplementarias para el Cursado de Taller de Simulacion}
+\title{simulacion: Funciones Auxiliares para el Cursado de Técnicas de Simulacion}
 \description{
-Este paquete provee funciones para generar numeros aleatorios.
+Este paquete provee funciones para generar numeros aleatorios y calcular integrales con métodos de simulación por Monte Carlo.
 }
 \author{
 \strong{Maintainer}: Gino Bartolelli \email{gino.bartolelli@fcecon.unr.edu.ar}
+
+Authors:
+\itemize{
+  \item Gino Bartolelli \email{gino.bartolelli@fcecon.unr.edu.ar}
+}
 
 }
 \keyword{internal}

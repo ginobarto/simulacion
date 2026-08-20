@@ -7,15 +7,15 @@
 generar_numeros_aleatorios(n, x0, a, c, m)
 }
 \arguments{
-\item{n}{largo de la secuencia}
+\item{n}{Largo de la secuencia.}
 
-\item{x0}{valor inicial o semilla}
+\item{x0}{Valor inicial o semilla.}
 
-\item{a}{multiplicador}
+\item{a}{Multiplicador.}
 
-\item{c}{constante aditiva}
+\item{c}{Constante aditiva.}
 
-\item{m}{modulo}
+\item{m}{Modulo.}
 }
 \value{
 Secuencia de numeros aleatorios en el intervalo [0,1] de largo \code{n}.
@@ -23,7 +23,7 @@ Secuencia de numeros aleatorios en el intervalo [0,1] de largo \code{n}.
 \description{
 Esta funcion genera una secuencia rectangular de numeros aleatorios
 a partir de un generador congruencial lineal:
-\deqn{x_n = (a \cdot x_{n-1} + c) \text{ mod } m}
+\deqn{x_n = (a \cdot x_{n-1} + c) \text{ mod } m}.
 }
 \examples{
 generar_numeros_aleatorios(n = 10, x0 = 5, a = 3, c = 0, m = 150)
