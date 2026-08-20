@@ -2,7 +2,7 @@
 #' 
 #' Esta funcion genera una secuencia rectangular de numeros aleatorios
 #' a partir de un generador congruencial lineal:
-#' \deqn{x_n = (a \cdot x_{n-1} + c) \text{ mod } m}.
+#' \deqn{x_n = (a \cdot x_{n-1} + c) \text{ mod } m}
 #'
 #' @param n Largo de la secuencia.
 #' @param x0 Valor inicial o semilla.
