@@ -11,10 +11,5 @@ Este paquete provee funciones para generar numeros aleatorios y calcular integra
 \author{
 \strong{Maintainer}: Gino Bartolelli \email{gino.bartolelli@fcecon.unr.edu.ar}
 
-Authors:
-\itemize{
-  \item Gino Bartolelli \email{gino.bartolelli@fcecon.unr.edu.ar}
-}
-
 }
 \keyword{internal}
